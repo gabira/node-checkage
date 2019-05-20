@@ -1,0 +1,8 @@
+{% extends "layout.njk" %}
+
+{% block body %}
+	<form action="/check" method="post">
+		<input type="text" name="age" placeholder="Digite uma idade" required>
+		<button type="submit">Enviar</button>
+	</form>
+{% endblock %}
